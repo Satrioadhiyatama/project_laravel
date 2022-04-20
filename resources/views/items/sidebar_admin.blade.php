@@ -1,5 +1,5 @@
 <!-- menu samping LEFT SIDEBAR --><!-- MENU UTAMA -->           
-	<aside class='left-side sidebar-offcanvas'>
+<aside class='left-side sidebar-offcanvas'>
 		<!-- sidebar: style can be found in sidebar.less -->
 			<section class='sidebar'>
 				<!-- Sidebar user panel -->
@@ -19,211 +19,94 @@
 	<li class='treeview'><a href='#'><i class='fa fa-briefcase'></i><span>Tutorial HTML</span>
 	<i class='fa fa-angle-left pull-right'></i></a> 
 		<ul class='treeview-menu'>
-				<li>
-					<a href="{{ route('htmlintro') }}"><i class='fa fa-angle-double-right'></i>HTML Introduction</a>
-				<li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i> HTML Editors</a>
-				<li>
-					<a href='?module=HTML Basic'><i class='fa fa-angle-double-right'></i> HTML Basic</a>
-				<li>
-					<a href='?module=surattugas'><i class='fa fa-angle-double-right'></i> HTML Elements</a>
-				<li>
-					<a href='?module=HTML Attributes'><i class='fa fa-angle-double-right'></i> HTML Attributes</a>
-				<li>
-					<a href='?module=formst'><i class='fa fa-angle-double-right'></i> HTML Headings</a>
-				<li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li>
-				<li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li><li>
-					<a href='?module=HTML Editors'><i class='fa fa-angle-double-right'></i>HTML Paragraphs</a>
-				</li>
+				<li><a href="{{ route('htmlintro') }}"><i class='fa fa-angle-double-right'></i>HTML Introduction</a>
 				
+	<li><a href="{{ route('htmlintro') }}"><i class='fa fa-angle-double-right'></i>HTML Introduction</a>
+	</li><li><a href="{{ route('htmlEditors') }}"><i class='fa fa-angle-double-right'></i>HTML Editors[ AHMAD HAIKAL 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Basic[ ARYA BATARA SENA 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Elements[ BAYU ANDRIANSYAH 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Attributes[ DENDI KURNIADI 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Headings[ DIMAS IBNUAZZIS 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Paragraphs[ FEBRINA DIPONEGORO 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Styles[ MUHAMMAD MAULIA ASDI 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Formatting[ MUHAMMAD SHIDQI PRAMUDYA WIBOWO ] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Quotations[ RAFI ADIB FADHILAH 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Comments[ SATRIO ADHIYATAMA ERLANGGA 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Colors [ SIGIT SETIA BUDI 	] </a>
+	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML CSS [ YEREMIA ] </a></li>
+	
 		</ul>
 	</li><li class='treeview'><a href='#'><i class='fa fa-bars'></i><span>Tutorial CSS</span><i class='fa fa-angle-left pull-right'></i></a> 
 		<ul class='treeview-menu'>
-				<li>
-					<a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Introduction</a>
-				</li><li>
-					<a href='?module=CSS Syntax'><i class='fa fa-angle-double-right'></i> CSS Syntax</a>
-				</li><li>
-					<a href='?module=CSS Selectors'><i class='fa fa-angle-double-right'></i> CSS Selectors</a>
-				</li><li>
-					<a href='?module=CSS How To'><i class='fa fa-angle-double-right'></i> CSS How To</a>
-				</li><li>
-					<a href='?module=CSS Comments'><i class='fa fa-angle-double-right'></i> CSS Comments</a>
-				</li><li>
-					<a href='?module=CSS Colors'><i class='fa fa-angle-double-right'></i> CSS Colors</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li><li>
-					<a href='?module=CSS Backgrounds'><i class='fa fa-angle-double-right'></i>CSS Backgrounds</a>
-				</li>
-		</ul>
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Tutorial	[ Bhagaskara Farhan Wiguna]   </a></li>
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS HOME		[ Satrio Aji Pratama 201910225362]   </a></li>					
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Introduction[ Reza Ari Hidayat 201910225297]   </a></li>	
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Syntax		[ Hasnaa Febriyanti 201810225089]   </a></li>		
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Selectors	[ Feriyandi Gunawan 201810225328]   </a></li>
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS How To		[ Ali purnomo shidiq 201810225351]   </a></li>					
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Comments	[ Ahmad Faridz Al Mahdi 201910225270]   </a></li>	
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Colors		[ Rivaldi Pradana 201910225405]   </a></li>		
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Backgrounds	[ ]   </a></li>
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Borders		[ ]   </a></li>					
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Margins		[ ]   </a></li>	
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Padding		[ ]   </a></li>		
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Height/Width[ ]   </a></li>
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Box Model	[ ]   </a></li>					
+				<li><a href='?module=CSS Introduction'><i class='fa fa-angle-double-right'></i> CSS Outline		[ ]   </a></li>	
+				<li><a href='{{ route('CssText') }}'><i class='fa fa-angle-double-right'></i> CSS Text		[saya]   </a></li>	
+                                                                                                
+		</ul>                                                                                  
 	</li><li class='treeview'><a href='#'><i class='fa fa-pagelines'></i><span>Tutorial JavaScript</span><i class='fa fa-angle-left pull-right'></i></a> 
 		<ul class='treeview-menu'>
-				<li>
-					<a href="{{ route('jsintro') }}"><i class='fa fa-angle-double-right'></i> JS Introduction</a>
-				<li>
-					<a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i> JS Where To </a>
-				<li>
-					<a href='?module=JS Output'><i class='fa fa-angle-double-right'></i> JS Output</a>
-				<li>
-					<a href='?module=JS Statements'><i class='fa fa-angle-double-right'></i> JS Statements</a>
-				<li>
-					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
-				</li>
-				<li>
-					<a href='?module=JS Comments'><i class='fa fa-angle-double-right'></i>JS Comments</a>
+				<li><a href="{{ route('jsintro') }}"><i class='fa fa-angle-double-right'></i> JS Introduction </a>
+				</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i> JS Where To[ADELLIA ASKARAGITA}  </a>
+				</li><li><a href='?module=JS Output'><i class='fa fa-angle-double-right'></i> JS Output[AFNAN DWI ASTUTI ]</a>
+				</li><li><a href='?module=JS Statements'><i class='fa fa-angle-double-right'></i> JS Statements[AGAM MUJAHIDIN ]</a>
+				</li><li><a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax[AHMAD HABIBI ] </a>
+				</li><li><a href='?module=JS Comments'><i class='fa fa-angle-double-right'></i>JS Comments[ALDI PRATAMA]</a>
+				</li><li><a href='?module=JS Variables'><i class='fa fa-angle-double-right'></i>JS Variables[ALIFUDIN ALFARIZI]</a>
+				</li><li><a href='?module=JS Let'><i class='fa fa-angle-double-right'></i>JS Let [AMARULLOH ADJI GUNAWAN]</a>
 				</li><li>
-					<a href='?module=JS Variables'><i class='fa fa-angle-double-right'></i>JS Variables</a>
+					<a href='?module=JS Const'><i class='fa fa-angle-double-right'></i>JS Const [ARYA BAYU MUNGGARAN]</a>
 				</li><li>
-					<a href='?module=JS Let'><i class='fa fa-angle-double-right'></i>JS Let</a>
+					<a href='?module=JS Operators'><i class='fa fa-angle-double-right'></i>JS Operators[BUDI SANTOSO]</a>
 				</li><li>
-					<a href='?module=JS Const'><i class='fa fa-angle-double-right'></i>JS Const</a>
+					<a href='?module=JS Arithmetic'><i class='fa fa-angle-double-right'></i>JS Arithmetic[CAHYA ARYA JIBRAN]</a>
 				</li><li>
-					<a href='?module=JS Operators'><i class='fa fa-angle-double-right'></i>JS Operators</a>
+					<a href='?module=JS Assignment'><i class='fa fa-angle-double-right'></i>JS Assignment[DANIEL JHON ROSINTON HUTAURUK]</a>
 				</li><li>
-					<a href='?module=JS Arithmetic'><i class='fa fa-angle-double-right'></i>JS Arithmetic</a>
+					<a href='?module=JS Data Types'><i class='fa fa-angle-double-right'></i>JS Data Types[DANIEL JUANDONO ]</a>\
 				</li><li>
-					<a href='?module=JS Assignment'><i class='fa fa-angle-double-right'></i>JS Assignment</a>
+					<a href='?module=JS Functions'><i class='fa fa-angle-double-right'></i>JS Functions[DINAR ALIFAH YUNIAR ]</a>
 				</li><li>
-					<a href='?module=JS Data Types'><i class='fa fa-angle-double-right'></i>JS Data Types</a>
+					<a href='?module=JS Objects'><i class='fa fa-angle-double-right'></i>JS Objects[DZAKIYYAH NUR HAFIZHAH FACKHRI ]</a>
 				</li><li>
-					<a href='?module=JS Functions'><i class='fa fa-angle-double-right'></i>JS Functions</a>
+					<a href='?module=JS Events'><i class='fa fa-angle-double-right'></i>JS Events[ENDRO WINDU NUGROHO ]</a>
 				</li><li>
-					<a href='?module=JS Objects'><i class='fa fa-angle-double-right'></i>JS Objects</a>
+					<a href='?module=JS Strings'><i class='fa fa-angle-double-right'></i>JS Strings[FARHAN AMALUDIN RISATYA  ]</a>
 				</li><li>
-					<a href='?module=JS Events'><i class='fa fa-angle-double-right'></i>JS Events</a>
+					<a href='?module=JS String Methods'><i class='fa fa-angle-double-right'></i>JS String Methods[FARHANSYAH PUTRO  ]</a>
 				</li><li>
-					<a href='?module=JS Strings'><i class='fa fa-angle-double-right'></i>JS Strings</a>
+					<a href='?module=JS String Search'><i class='fa fa-angle-double-right'></i>JS String Search[FAUZAN RIZKULLOH  ]</a>
 				</li><li>
-					<a href='?module=JS String Methods'><i class='fa fa-angle-double-right'></i>JS String Methods</a>
+					<a href='?module=JS String Templates'><i class='fa fa-angle-double-right'></i>JS String Templates[ FERDI RENALDI ]</a>
 				</li><li>
-					<a href='?module=JS String Search'><i class='fa fa-angle-double-right'></i>JS String Search</a>
+					<a href='?module=JS Numbers'><i class='fa fa-angle-double-right'></i>JS Numbers[FIRMAN FEBRIANA ]</a>
 				</li><li>
-					<a href='?module=JS String Templates'><i class='fa fa-angle-double-right'></i>JS String Templates</a>
+					<a href='?module=JS Number Methods'><i class='fa fa-angle-double-right'></i>JS Number Methods[FREDERIK RAYA KORE  ]</a>
 				</li><li>
-					<a href='?module=JS Numbers'><i class='fa fa-angle-double-right'></i>JS Numbers</a>
+					<a href='?module=JS Arrays'><i class='fa fa-angle-double-right'></i>JS Arrays[ GALIH ADI PRATAMA]</a>
 				</li><li>
-					<a href='?module=JS Number Methods'><i class='fa fa-angle-double-right'></i>JS Number Methods</a>
+					<a href='?module=JS Array Methods'><i class='fa fa-angle-double-right'>	   </i>JS Array Methods[ 		]</a>
 				</li><li>
-					<a href='?module=JS Arrays'><i class='fa fa-angle-double-right'></i>JS Arrays</a>
+					<a href='?module=JS Array Sort'><i class='fa fa-angle-double-right'>		  </i>JS Array Sort[	]</a>
 				</li><li>
-					<a href='?module=JS Array Methods'><i class='fa fa-angle-double-right'></i>JS Array Methods</a>
+					<a href='?module=JS Array Iteration'><i class='fa fa-angle-double-right'></i>JS Array Iteration[    ]</a>
 				</li><li>
-					<a href='?module=JS Array Sort'><i class='fa fa-angle-double-right'></i>JS Array Sort</a>
-				</li><li>
-					<a href='?module=JS Array Iteration'><i class='fa fa-angle-double-right'></i>JS Array Iteration</a>
+					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'>			</i>JS Syntax		[   ]</a>
 				</li><li>
 					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
 				</li><li>
-					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
-				</li>
-				<li>
 					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
 				</li><li>
 					<a href='?module=JS Syntax'><i class='fa fa-angle-double-right'></i>JS Syntax</a>
@@ -324,4 +207,3 @@
                 <!-- END MENU UTAMA -->
 	</aside>
 	
-<!-- END LEFT SIDEBAR -->
