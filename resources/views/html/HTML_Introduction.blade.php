@@ -8,7 +8,7 @@
 <div class="panel panel-headline" id="menuGuruInput">
     <div class="panel-heading" style="margin-bottom: 2%">
 
-        <h1 class="panel-title col-md-4">Data Guru</h1>
+        <h1 class="panel-title col-md-4">DATA GURU</h1>
         <div class="right col-md-4 text-right">
             <a class="btn btn-primary btn-xs" id="btnTambah"> Tambah Data</a>
         </div>
