@@ -48,7 +48,7 @@
 								<div class="form-group clearfix">
 									<label class="fancy-checkbox element-left">
 										<input type="checkbox">
-										<span>Remember me</span>
+										<span>Remember me?</span>
 									</label>
 								</div>
 								<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
