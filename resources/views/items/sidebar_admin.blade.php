@@ -31,7 +31,7 @@
 	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Styles[ MUHAMMAD MAULIA ASDI 	] </a>
 	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Formatting[ MUHAMMAD SHIDQI PRAMUDYA WIBOWO ] </a>
 	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Quotations[ RAFI ADIB FADHILAH 	] </a>
-	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Comments[ SATRIO ADHIYATAMA ERLANGGA 	] </a>
+	</li><li><a href="{{ route('htmlcomments') }}"><i class='fa fa-angle-double-right'></i>HTML Comments[ SATRIO ADHIYATAMA ERLANGGA 	] </a>
 	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML Colors [ SIGIT SETIA BUDI 	] </a>
 	</li><li><a href='?module=JS Where To'><i class='fa fa-angle-double-right'></i>HTML CSS [ YEREMIA ] </a></li>
 	
@@ -206,4 +206,3 @@
 	</li><li class='treeview'><a href='#'><i class='fa fa-arrows'></i><span>Tutorial  ASP NET</span><i class='fa fa-angle-left pull-right'></i></a></li></ul>	 </section>
                 <!-- END MENU UTAMA -->
 	</aside>
-	
