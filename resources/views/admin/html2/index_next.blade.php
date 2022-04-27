@@ -20,16 +20,12 @@
 <script src="{{ asset('editor/js/uic.js')}}"></script>
 <script data-cfasync="false" type="text/javascript">
 var k42 = false;
-
 k42 = true;
-
 </script>
 <script data-cfasync="false" type="text/javascript">
     window.snigelPubConf = {
     "adengine": {
-
       "activeAdUnits": ["try_it_leaderboard"]
-
   }
 }
 uic_r_a()
@@ -42,7 +38,6 @@ uic_r_a()
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 </style>
 
 </head>
@@ -118,7 +113,6 @@ title="Close Menu" style="font-weight:bold;padding-top:10px;padding-bottom:11px;
 
 <script>
 submitTryit()
-
 uic_r_e()
 </script>
 
