@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -20,16 +19,12 @@
 <script src="{{ asset('editor/js/uic.js')}}"></script>
 <script data-cfasync="false" type="text/javascript">
 var k42 = false;
-
 k42 = true;
-
 </script>
 <script data-cfasync="false" type="text/javascript">
     window.snigelPubConf = {
     "adengine": {
-
       "activeAdUnits": ["try_it_leaderboard"]
-
   }
 }
 uic_r_a()
@@ -42,7 +37,6 @@ uic_r_a()
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 </style>
 
 </head>
@@ -57,7 +51,7 @@ uic_r_a()
 
 </ul>
 </div>
-<img src="{{ asset('asset/img/pic_trulli.jpg') }}" alt="Trulli" width="50" height="33">
+<img src="http://127.0.0.1:8000/asset/img/logo.png" alt="Trulli" width="50" height="33">
 <div class="trytopnav">
 <div class="w3-bar" style="overflow:auto">
     <a href="javascript:void(0);" onclick="retheme()" title="Change Theme" class="w3-button w3-bar-item topnav-icons fa fa-adjust" style="margin-top:-2px;"></a>
@@ -96,13 +90,11 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
-
 tr:nth-child(even) {
   background-color: #dddddd;
 }
@@ -168,7 +160,6 @@ tr:nth-child(even) {
 
 <script>
 submitTryit()
-
 uic_r_e()
 </script>
 
