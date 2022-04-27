@@ -1,6 +1,6 @@
 
-  
-		<script src="{{ asset('asset/js/jquery.min.js') }}"></script>
+
+<script src="{{ asset('asset/js/jquery.min.js') }}"></script>
 		<!-- jQuery UI 1.10.3 -->
 		<script src="{{ asset('asset/js/jquery-ui-1.10.3.min.js') }}" type="text/javascript"></script>
 		<!-- Bootstrap -->
@@ -78,15 +78,12 @@
 							alert("Your browser or device doesn't support Geolocation");
 					}
 			}
-
 			// If we have a successful location update
 			function onGeoSuccess(event) {
 					document.getElementById("Latitude").value = event.coords.latitude;
 					document.getElementById("Longitude").value = event.coords.longitude;
 					document.getElementById("Position1").value = event.coords.latitude + ", " + event.coords.longitude;
-
 			}
-
 			// If something has gone wrong with the geolocation request
 			function onGeoError(event) {
 					alert("Error code " + event.code + ". " + event.message);
@@ -130,11 +127,8 @@
 <script>
     $(function(){
         $('#preloader').fadeOut('slow');
-
         
-
     })
-
     
 </script>
 @stack('script')
