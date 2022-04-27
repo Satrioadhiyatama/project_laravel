@@ -426,7 +426,7 @@
 			<div class='box box-primary'>
 				<div class='box-header'>
 					<i class='fa fa-th'></i>
-					<h3 class='box-title'>Universitas Bhayangkara Jakarta Raya Bekasi</h3>
+					<h3 class='box-title'>Universitas Bhayangkara Jakarta Raya</h3>
 					<center><img src="asset/img/welcome.png" width=95%></center>
 				</div>
 				<div class='box-body border-radius-none'>				<script src="js/jquery.min.js" type="text/javascript"></script>
@@ -537,15 +537,12 @@
 							alert("Your browser or device doesn't support Geolocation");
 					}
 			}
-
 			// If we have a successful location update
 			function onGeoSuccess(event) {
 					document.getElementById("Latitude").value = event.coords.latitude;
 					document.getElementById("Longitude").value = event.coords.longitude;
 					document.getElementById("Position1").value = event.coords.latitude + ", " + event.coords.longitude;
-
 			}
-
 			// If something has gone wrong with the geolocation request
 			function onGeoError(event) {
 					alert("Error code " + event.code + ". " + event.message);
