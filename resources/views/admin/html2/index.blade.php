@@ -7,7 +7,6 @@ h4 {
   background-color:#ff6347;
 }
 /* bentuk border */
-
 .w3-example {
   padding: 8px 20px;
   margin: 24px -20px;
@@ -28,7 +27,6 @@ h4 {
   border-left: 4px solid #4CAF50;
   word-wrap: break-word;
 }	
-
 .w3-btn:hover, .w3-btn:active, .w3-example a:focus, .nextprev a:focus {
   box-shadow: none;
   background-color: #059862 !important;
@@ -47,7 +45,6 @@ h4 {
 .w3-margin-bottom {
   margin-bottom: 16px !important;
 }
-
 </style>
 <aside class='right-side'>
 <!-- Content Header (Page header) -->
@@ -66,7 +63,7 @@ h4 {
 					<h3 class='box-title'>Universitas Bhayangkara Jakarta Raya</h3>
 				</div>
 				<div class='box-body border-radius-none'>	
-				<p>HTML Tutorial
+				<p>HTML 2 Tutorial
 HTML adalah bahasa markup standar untuk halaman Web.Dengan HTML Anda dapat membuat situs web Anda sendiri.HTML mudah dipelajari - Anda akan menikmatinya!
 Contoh di Setiap Bab
 Tutorial HTML ini berisi ratusan contoh HTML.Dengan editor Notepade ++, Anda dapat mengedit HTML dan jalankan di browser anda.
@@ -86,7 +83,7 @@ Contoh   ::</p>
 		&lt;/body&gt;<br>&lt;/html&gt;
 	</div>
 	<div >
-		<a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_default" target="_blank">Coba Sendiri &raquo;</a>
+		<a class="w3-btn w3-margin-bottom" href="{{ route('htmlintro_next') }}" target="_blank">Coba Sendiri &raquo;</a>
 	</div>
 
 	<strong>Click aja &quot;Coba Sendiri&quot; Tombol ini Untuk melihat koding sebenarnya.</strong>
@@ -143,4 +140,3 @@ Contoh   ::</p>
 
 </div>
 @endsection
-
