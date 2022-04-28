@@ -17,7 +17,7 @@ Route::get('/', 'AdminController@index')->name('userhome');
 Route::prefix('admin')->group(function () {
     Route::get('/', 'AdminController@index')->name('adminhome');
 
-    Route::get('/Colors', 'HtmlCommentsController@index')->name('htmlcomments');
+    Route::get('/Comments', 'HtmlCommentsController@index')->name('htmlcomments');
     Route::get('/htmlcomments_next', 'HtmlCommentsController@index_next')->name('htmlcomments_next');
 
 
